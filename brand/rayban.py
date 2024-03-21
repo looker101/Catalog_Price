@@ -4,8 +4,7 @@ try:
     rayban = pd.read_excel("rb.xlsx")
 
     def ray(x):
-        return round(x * 0.80)
-
+        return round(x * 0.85)
     rayban["Variant Price"] = rayban["Variant Price"].astype("float64")
 
     rayban[["Variant Price", "Variant Compare At Price"]] = rayban[["Variant Price", "Variant Compare At Price"]].fillna(0)
