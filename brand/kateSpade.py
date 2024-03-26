@@ -46,7 +46,7 @@ try:
         print(__name__)
 
 except FileNotFoundError as err:
-    print("Non hai inserito or.xlsx (Kate Spade)")
+    print("Non hai inserito spade.xlsx (Kate Spade)")
 
 except Exception as err:
     print(f"C'è qualcosa che non va:{err}")

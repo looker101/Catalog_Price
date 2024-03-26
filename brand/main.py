@@ -1,7 +1,6 @@
 import pandas as pd
 
-start = input("""Benvenuto alle Cabine Suicidio! 
-              Premi INVIO per iniziare""")
+start = input(" Premi INVIO per iniziare")
 
 # importo i file dei brand
 import adidas_originals as originals
